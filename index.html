@@ -5,16 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tbr-app</title>
+    <style>
+        .title{
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        body{
+            background-color:black;
+        }
+        .search-container{
+            color:white;
+            background-color:#545C20;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .image-container{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        .main{
+            display: flex;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>tbr</h1>
-    <div>
-        <label>search</label>
-        <input/>
+    <h1 class="title">tbr</h1>
+    <div class="main">
+    <div class="search-container">
+        <div>
+            <label>search</label>
+            <input/>
+        </div>
         <button>Click here for search reccomondations</button>
     </div>
-    <div>
+    <div class="image-container">
         <img src="https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"/>
+    </div>
     </div>
 </body>
 </html>
