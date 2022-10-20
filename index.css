@@ -1,0 +1,25 @@
+.title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-color:black;
+}
+.search-container{
+    color:white;
+    background-color:#545C20;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+}
